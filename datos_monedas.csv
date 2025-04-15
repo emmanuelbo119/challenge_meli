@@ -1,0 +1,17 @@
+_sa_instance_state,id,moneda_base,moneda_destino,valor_compra,valor_venta,fecha_hora
+<sqlalchemy.orm.state.InstanceState object at 0x7a87608b23f0>,USDBRL,USD,BRL,5.8849,5.8879,2025-04-15 15:26:52
+<sqlalchemy.orm.state.InstanceState object at 0x7a87608b1a30>,EURBRL,EUR,BRL,6.64894,6.66667,2025-04-15 15:26:32
+<sqlalchemy.orm.state.InstanceState object at 0x7a87608b1c10>,JPYBRL,JPY,BRL,0.04117157,0.04119256,2025-04-15 15:26:52
+<sqlalchemy.orm.state.InstanceState object at 0x7a87608b2690>,GBPBRL,GBP,BRL,7.7889,7.79287,2025-04-15 15:26:52
+<sqlalchemy.orm.state.InstanceState object at 0x7a87608b26f0>,AUDBRL,AUD,BRL,3.74098,3.75096,2025-04-15 15:26:32
+<sqlalchemy.orm.state.InstanceState object at 0x7a87608b2750>,CADBRL,CAD,BRL,4.21607,4.22732,2025-04-15 15:26:32
+<sqlalchemy.orm.state.InstanceState object at 0x7a87608b27b0>,CHFBRL,CHF,BRL,7.17749,7.19663,2025-04-15 15:26:32
+<sqlalchemy.orm.state.InstanceState object at 0x7a87608b2810>,CNYBRL,CNY,BRL,0.79336291,0.80088624,2025-04-15 11:59:16
+<sqlalchemy.orm.state.InstanceState object at 0x7a87608b2870>,HKDBRL,HKD,BRL,0.7578396,0.7598605,2025-04-15 15:26:32
+<sqlalchemy.orm.state.InstanceState object at 0x7a87608b28d0>,SGDBRL,SGD,BRL,4.464201,4.476105,2025-04-15 15:26:32
+<sqlalchemy.orm.state.InstanceState object at 0x7a87608b2930>,SEKBRL,SEK,BRL,0.59732,0.59891285,2025-04-15 15:26:32
+<sqlalchemy.orm.state.InstanceState object at 0x7a87608b2990>,KRWBRL,KRW,BRL,0.00412438,0.00413017,2025-04-15 15:26:29
+<sqlalchemy.orm.state.InstanceState object at 0x7a87608b29f0>,NOKBRL,NOK,BRL,0.55509651,0.55523965,2025-04-15 15:26:52
+<sqlalchemy.orm.state.InstanceState object at 0x7a87608b2a50>,DKKBRL,DKK,BRL,0.89174233,0.89212932,2025-04-15 15:26:51
+<sqlalchemy.orm.state.InstanceState object at 0x7a87608b2ab0>,NZDBRL,NZD,BRL,3.484364,3.495244,2025-04-15 15:26:47
+<sqlalchemy.orm.state.InstanceState object at 0x7a87608b2b10>,ARSBRL,ARS,BRL,0.00491169,0.00491172,2025-04-15 15:26:42

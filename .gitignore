@@ -172,3 +172,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+#Package distribution
+__init__.py
+.vscode/
