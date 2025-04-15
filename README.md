@@ -51,11 +51,7 @@ docker-compose up -d
 ```
 > [!IMPORTANT]
 > Requisitos
-
-
-- Contar con **Docker Compose** instalado.
-
-> [!IMPORTANT]
+> Contar con **Docker Compose** instalado.
 > Esto hará que se ejecute la base de datos local en el puerto 5432 con la configuración de usuario y contraseña definida en docker-compose (por ser una base de test)
 
 Para responder las respuestas de negocio se creó el archivo SQL [respuestas_negocio.sql](/database/respuestas_negocio.sql), donde esta cada una de las consignas desarrolladas con sus correspondientes coementarios. 
