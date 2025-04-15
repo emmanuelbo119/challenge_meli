@@ -12,7 +12,7 @@ from sqlalchemy import create_engine, Column, String, Numeric, DateTime, TIMESTA
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.dialects.postgresql import UUID
-from .models import *
+from app.models import *
 import pytz
 
 
