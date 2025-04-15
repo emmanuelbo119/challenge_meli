@@ -1,0 +1,17 @@
+_sa_instance_state,id,base_currency,target_currency,buy_rate,sell_rate,timestamp
+<sqlalchemy.orm.state.InstanceState object at 0x7d26aa844e30>,6137acf3-8dde-4a47-a432-2d48cd780fb7,USD,BRL,5.8857,5.8887,2025-04-15 15:36:15
+<sqlalchemy.orm.state.InstanceState object at 0x7d26aa845190>,3915fa06-24ad-406a-b5f8-aa497fd64d4b,EUR,BRL,6.6445,6.6622,2025-04-15 15:35:28
+<sqlalchemy.orm.state.InstanceState object at 0x7d26aa8451f0>,99e6fa5a-f6fe-4023-b3f0-7ab1ff983f98,JPY,BRL,0.0412,0.0412,2025-04-15 15:36:15
+<sqlalchemy.orm.state.InstanceState object at 0x7d26aa845250>,1b13ca5b-7cb8-44e6-a3c0-6f55e2dc30d3,GBP,BRL,7.7902,7.7942,2025-04-15 15:36:15
+<sqlalchemy.orm.state.InstanceState object at 0x7d26aa8452b0>,2f965baf-b50d-4d27-b58b-566bf93aac8e,AUD,BRL,3.7397,3.7497,2025-04-15 15:35:28
+<sqlalchemy.orm.state.InstanceState object at 0x7d26aa845310>,1f83ca43-087d-454b-a757-6e8871ebdad8,CAD,BRL,4.2156,4.2268,2025-04-15 15:35:28
+<sqlalchemy.orm.state.InstanceState object at 0x7d26aa845370>,95508f32-5332-4dc9-8869-cca1ab46458e,CHF,BRL,7.1756,7.1947,2025-04-15 15:35:28
+<sqlalchemy.orm.state.InstanceState object at 0x7d26aa8453d0>,30954b73-1336-4349-9297-c35157c96f95,CNY,BRL,0.7934,0.8009,2025-04-15 11:59:16
+<sqlalchemy.orm.state.InstanceState object at 0x7d26aa845430>,455bfac9-68b1-4b16-9420-4f34f3fb1f55,HKD,BRL,0.7579,0.7599,2025-04-15 15:35:28
+<sqlalchemy.orm.state.InstanceState object at 0x7d26aa845490>,1bb4992b-9036-4e01-a1ea-6e3608505aba,SGD,BRL,4.4631,4.475,2025-04-15 15:35:28
+<sqlalchemy.orm.state.InstanceState object at 0x7d26aa8454f0>,0f02f8e4-30d6-4c26-bbe2-ddbc5725b2f1,SEK,BRL,0.5967,0.5983,2025-04-15 15:35:28
+<sqlalchemy.orm.state.InstanceState object at 0x7d26aa845550>,40c943a0-57a8-458e-a640-dc77c9756042,KRW,BRL,0.0041,0.0041,2025-04-15 15:36:11
+<sqlalchemy.orm.state.InstanceState object at 0x7d26aa8455b0>,d2d8c9c7-8d6b-4b56-9c33-d588bde3a261,NOK,BRL,0.5546,0.5546,2025-04-15 15:36:15
+<sqlalchemy.orm.state.InstanceState object at 0x7d26aa845610>,3437832e-a631-4113-934d-90c67a590f6c,DKK,BRL,0.8914,0.8918,2025-04-15 15:36:15
+<sqlalchemy.orm.state.InstanceState object at 0x7d26aa845670>,abdf2044-9a8d-4f2f-9bd6-3f34424b2679,NZD,BRL,3.4824,3.4933,2025-04-15 15:36:13
+<sqlalchemy.orm.state.InstanceState object at 0x7d26aa8456d0>,766afa78-09d6-43ef-843d-af122e73a802,ARS,BRL,0.0049,0.0049,2025-04-15 15:35:42
