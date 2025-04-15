@@ -83,3 +83,36 @@ WHERE
     ranking <= 5
 ORDER BY 
     mes_num, ranking;
+
+
+/*3. Se solicita poblar una nueva tabla con el precio y estado de los Ítems a fin del día. Tener en cuenta que debe ser reprocesable. 
+Vale resaltar que en la tabla Item, vamos a tener únicamente el último estado informado por la PK definida.(Se puede resolver a través de StoredProcedure) 
+*/
+
+-- Creamos la nueva tabla para almacenar el precio y estado de los ítems
+CREATE TABLE meli.item_price_status_end_of_day (
+    snapshot_id uuid DEFAULT gen_random_uuid(),  -- ID del snapshot
+    item_id uuid NOT NULL,           -- ID del ítem
+    status varchar(255),             -- Estado del ítem
+    price numeric(10, 2),            -- Precio del ítem
+    record_date timestamp,           -- Fecha y hora en que se registró
+    processed_at timestamp DEFAULT CURRENT_TIMESTAMP,  -- Fecha y hora de la ejecución del proceso
+    PRIMARY KEY (snapshot_id)  -- Clave primaria compuesta por el ID y la fecha
+);
+
+-- Creamos el SP para registrar el estado y precio de los ítems al final del día
+CREATE OR REPLACE PROCEDURE meli.record_item_price_status_end_of_day()
+LANGUAGE plpgsql
+AS $$
+BEGIN
+    -- Select e insert de  estado, precio y la fecha del snapshot
+    INSERT INTO meli.item_price_status_end_of_day (item_id, status, price, record_date)
+    SELECT 
+        item_id,
+        status,
+        price,
+        CURRENT_DATE  -- La fecha del snapshot es la fecha en la que se procesa el insert
+    FROM meli.dim_item
+END;
+$$;
+
