@@ -11,8 +11,7 @@ Este proyecto contiene las consultas SQL desarrolladas sobre una base de datos r
 2. **Obtener el top 5 de usuarios con más ventas en la categoría "Celulares" en 2020.**
 3. **Poblar una nueva tabla con el precio y estado de los ítems al final del día, asegurando que sea reprocesable.**
 
----
-[!IMPORTANT]
+
 ## Requisitos
 
 - **Docker** y **Docker Compose** instalados.
@@ -36,6 +35,8 @@ cd tu_repositorio
 ```bash 
 docker-compose up -d
 ```
-[!NOTE]
+
 Este comando descargará las imágenes necesarias y levantará los contenedores en segundo plano. PostgreSQL estará disponible en el contenedor db.
 
+> [!IMPORTANT]
+> Dentro de la carpeta app se encuentran los archivos .sql con las queries, de igual manera se ha dejado el archivo init.sql en la raiz para que la configuración de docker-compose lo tome desde allí.
